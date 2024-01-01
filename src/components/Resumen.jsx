@@ -24,7 +24,7 @@ function Resumen() {
       <div className="py-10">
         {pedido.length === 0 ? (
           <p className="text-center text-2xl">
-            No hay elementos en tu pedido aún
+            No hay elementos en tu pedido aun
           </p>
         ) : (
           pedido.map((producto) => (
